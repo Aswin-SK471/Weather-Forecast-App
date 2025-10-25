@@ -1,0 +1,16 @@
+# Ignore compiled files
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore database connector JARs
+lib/
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
