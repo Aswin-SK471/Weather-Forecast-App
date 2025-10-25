@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS weather_db;
+
+USE weather_db;
+
+CREATE TABLE IF NOT EXISTS weather_log (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    city VARCHAR(50) NOT NULL,
+    temperature DOUBLE NOT NULL,
+    humidity DOUBLE NOT NULL,
+    `condition` VARCHAR(50) NOT NULL,
+    log_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
